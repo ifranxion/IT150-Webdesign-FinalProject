@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Jane Doe</title>
+	<meta name="description" content="Freelance Photographer">
+	<meta name="author" content="Jane Doe">
+	
+    <!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+	================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- Others -->	
+	<link rel="stylesheet" href="css/menu.css">
+	<script src="js/jquery1111.min.js"></script>
+	<script src="js/script.js"></script>
+	
+	<!-- Image Gallery -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="css/custom-gallery.css">
+	
+</head>
+
+<body>
+	<div class="wrap-body">
+		
+		<header class="main-header">
+			<div class="zerogrid">
+				<div class="t-center">
+					<a class="site-branding" href="index.html">
+						<img class="zoom" src="images/logo.png" alt="Logo" />	
+					</a><!-- .site-branding -->
+				</div>
+				<div class="row">
+					<div class="col-2-3">
+						<!-- Menu-main -->
+						<div id='cssmenu'>
+							<ul>
+							   <li><a href='index.html'><span>Home</span></a></li>
+							   <li><a href='about.html'><span>About</span></a></li>
+							   <li class="active"><a href='gallery.html'><span>Gallery</span></a></li>							   
+							   <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-1-3">
+						<div class="top-search">
+							<form id="form-container"> <!--action=""-->
+								<!--<input type="submit" id="searchsubmit" value="" />-->
+								<a class="search-submit-button" href="javascript:void(0)">
+									<i class="fa fa-search"></i>
+								</a>
+								<div id="searchtext">
+									<input type="text" id="s" name="s" placeholder="Search">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<!-- Container -->
+		<section id="container"><h1 style="display: none;">&nbsp;</h1>
+			<div class="wrap-container">
+				<!-- Content-Box -->
+				<article class="single-post zerogrid">
+					<div class="row wrap-post"><!--Start Box-->
+						<h2 style="text-align: center;">An Overview of my Photography</h2>
+					</div>
+				</article>	
+			</div>
+		</section>
+		
+		<!-- Container -->
+			<div class="wrap-container zerogrid">
+				<!-- Gallery -->
+				<section class="content-box box-4 box-image-2">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-full">
+							<div class="col-1-3 portfolio-box">
+								<a class="">
+									<div class="portfolio-image" style="background-image: url('images/portraiture.jpg')"></div>
+									<div class="portfolio-caption">
+										<div class="portfolio-details">
+											<div class="portfolio-title"><h2>Portraiture Photography</h2></div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-1-3 portfolio-box">
+								<a class="">
+									<div class="portfolio-image" style="background-image: url('images/fashion.jpg')"></div>
+									<div class="portfolio-caption">
+										<div class="portfolio-details">
+											<div class="portfolio-title"><h2>Fashion Photography</h2></div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-1-3 portfolio-box">
+								<a class="">
+									<div class="portfolio-image" style="background-image: url('images/nature.jpg')"></div>
+									<div class="portfolio-caption">
+										<div class="portfolio-details">
+											<div class="portfolio-title"><h2>Nature Photography</h2></div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<!-- Gallery -->
+				<section class="content-box box-4 box-image-4"><h1>&nbsp;</h1>
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-full">
+					<input class="gallery__select" type="radio" name="gallery-select" id="0" checked="checked"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="1"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="2"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="3"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="4"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="5"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="6"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="7"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="8"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="9"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="10"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="11"/>
+					<input class="gallery__select" type="radio" name="gallery-select" id="12"/>
+					<div class="gallery">
+					  <div class="gallery__filler"></div>
+					  <div class="gallery__filler"></div>
+					  <label class="gallery__item" for="0"></label>
+					  <label class="gallery__item" for="1"><img src="images/portraiture/1.jpg" alt="Potraiture"/></label>
+					  <label class="gallery__item" for="2"><img src="images/portraiture/2.jpg" alt="Potraiture"/></label>
+					  <label class="gallery__item" for="3"><img src="images/portraiture/3.jpg" alt="Potraiture"/></label>
+					  <label class="gallery__item" for="4"><img src="images/portraiture/4.jpg" alt="Potraiture"/></label>
+					  <label class="gallery__item" for="5"><img src="images/portraiture/5.jpg" alt="Potraiture"/></label>
+					  <label class="gallery__item" for="6"><img src="images/portraiture/6.jpg" alt="Potraiture"/></label>
+					  <label class="gallery__item" for="7"><img src="images/portraiture/7.jpg" alt="Potraiture"/></label>
+					  <label class="gallery__item" for="8"><img src="images/fashion/1.jpg" alt="Fashion"/></label>
+					  <label class="gallery__item" for="9"><img src="images/fashion/2.jpg" alt="Fashion"/></label>
+					  <label class="gallery__item" for="10"><img src="images/fashion/3.jpg" alt="Fashion"/></label>
+					  <label class="gallery__item" for="11"><img src="images/fashion/4.jpg" alt="Fashion"/></label>
+					  <label class="gallery__item" for="12"><img src="images/fashion/5.jpg" alt="Fashion"/></label>
+					</div>							
+				</div>
+			</div>
+		</section>				
+	</div>
+
+		
+		<!-- Footer-->
+		<footer>
+			<div class="zerogrid">
+				<div class="bottom-footer">
+					<div class="bottom-social">
+						<a href="#"><i class="fa fa-facebook facebook-icon"></i></a>
+						<a href="#"><i class="fa fa-instagram instagram-icon"></i></a>
+						<a href="#"><i class="fa fa-twitter twitter-icon"></i></a>
+						<a href="#"><i class="fa fa-pinterest pinterest-icon"></i></a>
+						<a href="#"><i class="fa fa-linkedin linkedin-icon"></i></a>
+					</div>
+					<div class="copyright">
+						&copy; Copyright 2018<br /> Images taken from <a href="https://unsplash.com/">Unsplash</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+</body>
+</html>
