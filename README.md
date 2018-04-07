@@ -1,2 +1,2 @@
-# IT150-Webdesign-FinalProject
+# IT150-WebDesign-FinalProject
 Website of a freelance photographer
